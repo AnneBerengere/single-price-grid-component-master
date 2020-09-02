@@ -1,0 +1,192 @@
+/*tout format*/
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em 0 hsl(204, 43%, 83%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_join {
+    background-color: white;
+}
+
+.title_join {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin: 0.3em 0 1.1em 0;
+}
+
+.sstitle-join {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.content_join {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.card_subscription {
+    color: white;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.card_whyus {
+    color: white;
+    background-color: #4ABEBD;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 1.05em;
+    margin-bottom: 1.1em;
+}
+
+.formule {
+    color: #65D7D7;
+    font-weight: 400;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    color: white;
+    font-weight: 700;
+    font-size: 1.9em;
+    margin-right: 0.2em;
+}
+
+.formule_pub {
+    color: #D0FFFF;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 0.5em;
+    margin-bottom: 2.1em;
+}
+
+.button_signup {
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em 0 hsl(179, 62%,38%);
+}
+
+.content_whyus {
+    color: #D0FFFF;
+    font-size: 0.82em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+
+/*ordinateur*/
+@media only screen and (min-width: 660px) {
+
+    .container {
+        width: 39.7em;
+        height: 29.7em;
+    }
+
+    .card_join {
+        width: 100%;
+        min-height: 13.45em;
+    }
+
+    .title_join {
+        font-size: 1.4em;
+    }
+
+    .sstitle-join {
+        font-size: 1.1em;
+        margin-bottom: 0.8em;
+    }
+
+    .content {
+        margin: 2em;
+    }
+
+    .blue_box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card_subscription {
+        width: 50%;
+        min-height: 16.25em;
+    }
+
+    .card_whyus {
+        width: 50%;
+        min-height: 16.25em;
+    }
+
+    .title {
+        margin-top: 0.6em;
+    }
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 661px) {
+
+    .container {
+        width: 19.4em;
+    }
+
+    .content {
+        margin: 1.5em;
+    }
+
+    .blue_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_subscription {
+        width: 100%;
+    }
+
+    .card_whyus {
+        width: 100%;
+    }
+
+    .title_join {
+        font-size: 1.2em;
+    }
+
+    .sstitle-join {
+        font-size: 0.9em;
+        margin-bottom: 1.5em;
+    }
+
+    .content_join {
+        font-size: 0.8em;
+        line-height: 2em;
+        margin-bottom: 1em;
+    }
+
+
+}
